@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Styles for the container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Styles for the status header */
+.container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Styles for the breed list */
+.container div {
+  margin-bottom: 20px;
+}
+
+/* Styles for the breed name */
+.container div:first-child {
+  font-weight: bold;
+}
+
+/* Styles for the list of items under each breed */
+.container ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Styles for each item in the list */
+.container li {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
