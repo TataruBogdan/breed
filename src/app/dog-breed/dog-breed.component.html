@@ -1,13 +1,14 @@
 <div class="container">
+  <img [src]="dogImageRespons?.message" />
   <div *ngIf="dogDataRespons">
     <!-- <div *ngFor="let breed of dogDataRespons | keyvalue"> -->
-      <!-- {{ breed.key }} -->
-      <ul>
-        <li *ngFor="let dog of dogDataRespons.message | keyvalue">
-          {{ dog.key }} :
-          {{ dog.value }}
-        </li>
-      </ul>
+    <!-- {{ breed.key }} -->
+    <ul>
+      <li *ngFor="let dog of dogDataRespons.message | keyvalue">
+        {{ dog.key }} :
+        {{ dog.value }}
+      </li>
+    </ul>
     <!-- </div> -->
   </div>
 </div>

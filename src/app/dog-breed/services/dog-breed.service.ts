@@ -21,12 +21,12 @@ export class DogBreedService {
 
   
   
-  // getBreedsImage() : Observable<DogImageResponse> {
-  //   const url: string = `https://dog.ceo/api/breeds/image/random`;
+  getBreedsImage() : Observable<DogImageResponse> {
+    const url: string = `https://dog.ceo/api/breeds/image/random`;
 
-  //   let resp = this.http.get<DogImageResponse>(url);
+    let resp = this.http.get<DogImageResponse>(url);
     
-  //   return resp;
-  // }
+    return resp;
+  }
   
 }
